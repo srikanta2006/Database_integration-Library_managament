@@ -1,15 +1,15 @@
 📚 Library Management System
 
-This project was built as part of Week 3 of Tekwork’s AIDS training.
-It demonstrates how to integrate Python with Supabase (Postgres) for database operations and manage real-world data through a simple CLI-based system.
+A simple Library Management System built in Python, integrated with Supabase (Postgres).
+Developed as part of Week 3 of Tekwork’s AIDS Training.
 
-🔑 Features
+✨ Features
 
-Supabase Integration: Connect Python with a hosted Postgres database
+🔗 Supabase Integration – connect Python with a hosted Postgres database
 
-DBMS Operations: Insert, Update, Retrieve, and Delete data (CRUD)
+⚡ CRUD Operations – Insert, Update, Retrieve, and Delete data
 
-Tables Managed:
+📊 Database Tables Managed:
 
 Members
 
@@ -17,22 +17,61 @@ Books
 
 Borrowing Records
 
-User Input Support: Dynamically update tables using Python scripts
+📝 User Input Support – update tables dynamically via CLI
 
-⚙️ Tech Stack
+🛠️ Tech Stack
 
 Python 🐍
 
 Supabase (Postgres) 🗄️
 
-🚀 Learnings
+📖 Learnings
 
-Revisited DBMS concepts like DML & DCL commands
+Revisited DBMS concepts like DML & DCL
 
-First hands-on experience with API calls & client connections
+Gained hands-on experience with Supabase interface
 
-Overcame integration challenges between Python and Supabase
+Integrated Python with a database for the first time
 
-📎 Repository Goal
+Tackled client connection & API call challenges successfully
 
-This project is a step towards mastering database integration and building scalable applications using Python & cloud-backed databases.
+🚀 Getting Started
+🔧 Prerequisites
+
+Python 3.x installed
+
+Supabase account & project set up
+
+Required Python libraries:
+pip install supabase
+
+
+▶️ Run the Project
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+
+Configure your Supabase API keys in the script.
+
+Run the program:
+
+python main.py
+
+📂 Project Structure
+📁 Library-Management-System
+ ┣ 📄 main.py               # Entry point
+ ┣ 📄 books_availability.py # Books table operations
+ ┣ 📄 members.py            # Members table operations
+ ┣ 📄 borrow_records.py     # Borrowing records table operations
+ ┣ 📄 README.md             # Documentation
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and create a PR with improvements.
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify.
